@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="splashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="gA1-ao-ZtF">
+                                <rect key="frame" x="147" y="257" width="137" height="419"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="0.92941176889999999" green="0.4588235021" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="216" id="1ZL-TD-Uzh"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="200" id="2CR-IG-dT0"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="343" id="2hF-6w-wKm"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="343" id="5rl-vq-uu4"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="6is-gh-QPB"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="343" id="71b-D5-oBi"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="8d1-7X-11Y"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="8q1-83-lc2"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="77" id="9Je-Td-tCt"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="9jH-GD-rZN"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="At0-0p-uAF"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="343" id="AtA-G3-RIv"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="367" id="B5E-wo-uqO"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="BNm-Cv-1hD"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="220" id="Cg5-Q3-M8B"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="EMv-UN-s9n"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="F8k-Hs-2b2"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="GZR-iN-esj"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="77" id="GvE-4y-j89"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="LCL-32-X05"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="77" id="LCs-jZ-gl8"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="343" id="Mzk-fP-Ohm"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="343" id="Ncl-KC-Ow8"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="222" id="OHx-pT-x7o"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="OLU-S3-vv7"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="ONE-Cg-jcW"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="343" id="OnK-gh-gE6"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="PYw-Hr-scd"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="SkD-ES-U7X"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="343" id="TF4-7r-FbG"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="VJi-LN-zGv"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="Wyx-CG-9Kv"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="YVs-y8-RpM"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="YZg-ce-2j7"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="ZVr-vb-lXh"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="77" id="c3q-dn-mJ8"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="cF7-KL-XBm"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="343" id="dtn-li-WQV"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="hLm-VQ-BRZ"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="jOa-W8-JJ9"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="198" id="kCQ-Oc-67l"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="l07-V3-j09"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="77" id="mIj-dU-smn"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="n97-1c-iPq"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="343" id="nid-WM-Yz9"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="343" id="nuF-yT-b3B"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="77" id="onV-h2-i1l"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="77" id="pC1-CR-ZlE"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="q1d-L1-lq2"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="77" id="rkR-Nc-sYk"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="sJo-cP-3G6"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="77" id="sLN-2H-gGP"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="gA1-ao-ZtF" secondAttribute="bottom" constant="77" id="t8V-iE-4xD"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="204" id="tYM-pe-4s3"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="gA1-ao-ZtF" secondAttribute="trailing" constant="146" id="vgX-g4-hKR"/>
+                            <constraint firstItem="gA1-ao-ZtF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="wiz-d5-TXE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splashLogo" width="128" height="128"/>
+    </resources>
+</document>
